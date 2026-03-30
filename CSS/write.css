@@ -93,7 +93,27 @@
 	box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width: 800px) {
+    
+ 
+    .header {
+        margin: 0 15px; 
+        padding: 30px 15px; 
+    }
+    .card1 {
+        width: 90%; 
+        padding: 20px;
+    }
 
+    ul {
+        margin: 40px auto; 
+    }
+    
+    #photo {
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 
 
